@@ -8,17 +8,20 @@ target 'instagram_demo' do
 
     # Pods for instagram_demo
      pod 'Parse'
+     pod 'ParseUI'
 
     target 'instagram_demoTests' do
         inherit! :search_paths
         # Pods for testing
      pod 'Parse'
+     pod 'ParseUI'
     end
 
     target 'instagram_demoUITests' do
         inherit! :search_paths
         # Pods for testing
      pod 'Parse'
+     pod 'ParseUI'
     end
 
 end
